@@ -113,7 +113,7 @@ function RandomUserCard(img, name, location, email, phone) {
         <p>${location}</p>
       </div>
       <div>
-        <a href="mailto:${email}"><i class="fa-solid fa-envelope"></i>email</a>
+        <a class="hover" href="mailto:${email}"><i class="fa-solid fa-envelope"></i>email</a>
         <a href="tel:${phone}"><i class="fa-solid fa-envelope"></i>phone</a>
       </div>
     </div>
